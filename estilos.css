@@ -1,4 +1,9 @@
 h1{
-    color: blue;
+    color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.fondo{
+
+    background-color: blueviolet;
 }
