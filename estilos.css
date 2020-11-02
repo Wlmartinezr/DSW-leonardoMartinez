@@ -3,6 +3,16 @@ h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
+h2{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #005883;
+    padding: 20px;
+    display: block;
+    font-family: angsana new;
+    font-size: 20px;
+    width: 50%;
+}
 
 .titulo{
     text-align: center;
@@ -11,9 +21,15 @@ h1{
 }
 
 .menu{
+    background-color: #005883;
+    color: #fff;
     padding: 20px;
-    background-color: #F0B429;
-}
+    display: block;
+    font-family: angsana new;
+    font-size: 16px;
+    width: max-content;
+       
+ }
 
 .tabla{
     padding: 10%;
