@@ -18,6 +18,7 @@ h2{
     text-align: center;
     font-size: large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
 }
 
 .menu{
@@ -28,6 +29,8 @@ h2{
     font-family: angsana new;
     font-size: 16px;
     width: 100%;
+    
+    
            
  }
 
@@ -40,4 +43,27 @@ h1{
     align-content: center;
    padding: 10px;
    color: white;
+}
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.item{
+    float: left;
+}
+a{
+    text-decoration: none;
+}
+
+.desplegar{
+   display: list-item;
+    
+}
+.desplegar :hover{
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    position: relative;
 }
