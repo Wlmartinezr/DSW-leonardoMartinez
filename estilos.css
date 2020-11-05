@@ -28,9 +28,7 @@ h2{
     display: block;
     font-family: angsana new;
     font-size: 16px;
-    width: 100%;
-    
-    
+    width: 100%; 
            
  }
 
@@ -55,15 +53,6 @@ h1{
 a{
     text-decoration: none;
 }
-
-.desplegar{
-   display: list-item;
-    
-}
-.desplegar :hover{
-    display: block;
-}
-.menu li{
-    display: inline-block;
-    position: relative;
+.item :hover{
+    background-color: darkturquoise;
 }
