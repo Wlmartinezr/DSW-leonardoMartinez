@@ -56,3 +56,64 @@ a{
 .item :hover{
     background-color: darkturquoise;
 }
+ul.menu {
+    display: inline-block;
+    #display: inline;
+    _display: inline;
+    zoom: 1;
+    margin: 0;
+    list-style-type: none;
+    white-space: nowrap;
+    border: #333 solid 1px;
+    border-radius: 5px;
+    padding: 0 5px;
+    background: #005883;
+    }
+ul.menu ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: black
+    border: #333 solid 1px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+ul.menu ul li {
+    display: block;
+    border: none;
+    border-top: #333 solid 1px;
+}
+ul.menu ul li:first-child {
+    border: none;
+}
+ul.menu li {
+    position: relative;
+    display: inline-block;
+    #display: inline;
+    _display: inline;
+    zoom: 1;
+    border-left: #333 solid 1px;
+}
+ul.menu li:first-child {
+    border: none;
+}
+ul.menu li a {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+}
+ul.menu li a:hover {
+    text-decoration: underline;
+}
+ul.menu li:hover ul {
+    display: block;
+}
+ul.menu ul li:hover ul {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
